@@ -43,7 +43,7 @@ class LogsSingleton
     }
 
     /**
-     * control LogsSingleton instance
+     * controle do objeto LogsSingleton instance
      * @return LogsSingleton instance
      */
     public static function getInstance(): self
