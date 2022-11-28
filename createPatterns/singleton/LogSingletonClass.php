@@ -2,7 +2,7 @@
 
 
 /**
- * Padrão singleton, 
+ * Padrão singleton, exemplo de classe de geração de logs
  */
 
 namespace createPatterns\singleton;
@@ -15,6 +15,19 @@ class LogsSingleton
      * @var LogsSingleton
      */
     protected static LogsSingleton $instance;
+
+
+    private function __construct()
+    {
+    }
+
+    private function __clone()
+    {
+    }
+
+    private function __wakeup()
+    {
+    }
 
 
 
@@ -39,11 +52,10 @@ class LogsSingleton
         $archive = fopen($archiveName, 'w');
         fwrite($archive, json_encode($previousLogs));
         fclose($archive);
-
     }
 
     /**
-     * controle do objeto LogsSingleton instance
+     * controle do objeto LogsSingleton
      * @return LogsSingleton instance
      */
     public static function getInstance(): self
@@ -53,6 +65,14 @@ class LogsSingleton
         }
 
         return self::$instance;
-
     }
 }
+
+/**
+ * Verifica se as duas instancias são as mesmas
+ */
+
+$firstInstance = LogsSingleton::getInstance();
+$secondInstance = LogsSingleton::getInstance();
+
+var_dump($firstInstance === $secondInstance);
