@@ -1,6 +1,10 @@
 <?php
 
-namespace createPatterns\factoryMethod\product;
+/**
+ * Concrete product (produto concreto)
+ */
+
+namespace factoryMethod\product;
 
 /**
  * classe exemplo do objeto que representa um carro/produto de modelo específico

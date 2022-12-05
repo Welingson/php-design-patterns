@@ -1,7 +1,10 @@
 <?php 
 
+/**
+ * Concrete product (produto concreto)
+ */
 
-namespace createPatterns\factoryMethod\product;
+namespace factoryMethod\product;
 
 class TeslaModelX implements CarProduct
 {

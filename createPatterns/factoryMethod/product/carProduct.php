@@ -1,9 +1,9 @@
 <?php 
 
-namespace createPatterns\factoryMethod\product;
+namespace factoryMethod\product;
 
 /**
- * interface 
+ * interface  
  */
 
 interface CarProduct

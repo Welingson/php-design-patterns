@@ -1,6 +1,10 @@
 <?php 
 
-namespace createPatterns\factoryMethod\product;
+/**
+ * Concrete product (produto concreto)
+ */
+
+namespace factoryMethod\product;
 
 
 class DodgeDart implements CarProduct

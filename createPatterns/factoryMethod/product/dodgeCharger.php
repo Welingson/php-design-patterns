@@ -1,6 +1,10 @@
-<?php 
+<?php
 
-namespace createPatterns\factoryMethod\product;
+/**
+ * Concrete product (produto concreto)
+ */
+
+namespace factoryMethod\product;
 
 
 class DodgeCharger implements CarProduct
@@ -13,12 +17,10 @@ class DodgeCharger implements CarProduct
     public function brake(): void
     {
         echo "Frear Dodge Charger\n";
-        
     }
 
     public function speedUp(): void
     {
         echo "Acelerar Dodge Charger\n";
-        
     }
 }
