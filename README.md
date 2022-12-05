@@ -1,3 +1,3 @@
 # php-design-patterns
 
-# Study on design patterns with PHP
+Study on design patterns with PHP
