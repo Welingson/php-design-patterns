@@ -4,7 +4,7 @@
  * Concrete product (produto concreto)
  */
 
-namespace factoryMethod\product;
+namespace FactoryMethod\Product;
 
 
 class DodgeDart implements CarProduct
