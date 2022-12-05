@@ -1,9 +1,9 @@
 <?php
 
 
-namespace factoryMethod;
+namespace FactoryMethod;
 
-use factoryMethod\product\{
+use FactoryMethod\Product\{
     CarProduct,
     TeslaModelS,
     TeslaModelX

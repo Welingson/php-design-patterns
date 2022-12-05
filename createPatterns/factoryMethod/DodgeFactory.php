@@ -1,8 +1,8 @@
 <?php
 
-namespace factoryMethod;
+namespace FactoryMethod;
 
-use factoryMethod\product\{
+use FactoryMethod\Product\{
     DodgeCharger,
     DodgeDart,
     CarProduct

@@ -1,6 +1,6 @@
 <?php 
 
-namespace factoryMethod\product;
+namespace FactoryMethod\Product;
 
 /**
  * interface  

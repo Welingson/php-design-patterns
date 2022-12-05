@@ -4,7 +4,7 @@
  * Concrete product (produto concreto)
  */
 
-namespace factoryMethod\product;
+namespace FactoryMethod\Product;
 
 /**
  * classe exemplo do objeto que representa um carro/produto de modelo específico
