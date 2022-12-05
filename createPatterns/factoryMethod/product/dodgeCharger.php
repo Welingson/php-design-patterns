@@ -4,7 +4,7 @@
  * Concrete product (produto concreto)
  */
 
-namespace FactoryMethod\Product;
+namespace factoryMethod\product;
 
 
 class DodgeCharger implements CarProduct
