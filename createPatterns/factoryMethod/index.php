@@ -2,8 +2,8 @@
 
 require '../autoload.php';
 
-$teslaFactory = new \factoryMethod\TeslaFactory();
-$dodgeFactory = new \factoryMethod\DodgeFactory();
+$teslaFactory = new \FactoryMethod\TeslaFactory();
+$dodgeFactory = new \FactoryMethod\DodgeFactory();
 
 try {
 

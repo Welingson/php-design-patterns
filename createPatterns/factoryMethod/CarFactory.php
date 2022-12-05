@@ -5,7 +5,7 @@
  */
 
 
-namespace factoryMethod;
+namespace FactoryMethod;
 
 use factoryMethod\product\CarProduct;
 
